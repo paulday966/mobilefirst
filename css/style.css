@@ -2,8 +2,19 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.alert-container {
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
 
+.site-wide-alert {
+    color: #544600;
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 15px;
+    background-color: #eec802;
+    border-color: #eec802;
+    border: 1px solid transparent;
 }
 
 .callout-container {
@@ -14,11 +25,9 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
 }
 
@@ -41,6 +50,18 @@ body {
 
 .top-whiskey-container {
 
+}
+
+/* Page headers */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
 }
 
 /* Block dividers */
@@ -75,7 +96,19 @@ body {
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, .25);
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
 }
 
 /* Jumbotron */
